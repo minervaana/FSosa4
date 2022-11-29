@@ -1,0 +1,29 @@
+{
+  "name": "blogilista",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minervaana/FSosa4.git"
+  },
+  "author": "Mirka Väänänen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minervaana/FSosa4/issues"
+  },
+  "homepage": "https://github.com/minervaana/FSosa4#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.7.4"
+  }
+}
