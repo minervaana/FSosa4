@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -19,11 +19,15 @@
   },
   "homepage": "https://github.com/minervaana/FSosa4#readme",
   "devDependencies": {
+    "jest": "^29.3.1",
     "nodemon": "^2.0.20"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "mongoose": "^6.7.4"
+  },
+  "jest": {
+    "testEnvironment": "node"
   }
 }
