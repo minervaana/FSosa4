@@ -1,0 +1,9 @@
+POST  http://localhost:3001/api/blogs/6386066eab6adb9342378fad
+Content-Type: application/json
+
+{
+    "title": "Jucca Palmu",
+    "author": "Moikkuli",
+    "url": "www.moi.fi",
+    "likes": 9,
+  },
