@@ -5,7 +5,6 @@ const dummy = (blogs) => {
 const totalLikes = (blogs) => {
     const likes = blogs.map(blog => blog.likes)
     const max = likes.reduce((a, b) => Math.max(a, b), 0)
-    console.log(max)
     return max
 }
 
