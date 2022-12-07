@@ -1,9 +1,10 @@
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1pbmVydmEiLCJpZCI6IjYzOGY0MjBmZTlkNTViYmYyM2IwYTRhNCIsImlhdCI6MTY3MDQwOTA2OX0.jl8Ge-90tU97GNIysDHadtmbYD2Y5I8zTCa0ZBTo-ME
 
 {
-    "title": "heihei",
-    "author": "Moikkuli",
+    "title": "murmeli",
+    "author": "pekaani",
     "url": "www.moi.fi",
-    "likes": 12
+    "likes": 1
 }

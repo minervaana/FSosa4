@@ -1,9 +1,10 @@
-POST  http://localhost:3001/api/blogs/6386066eab6adb9342378fad
+PUt  http://localhost:3001/api/blogs/6386066eab6adb9342378fad
 Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1pbmVydmEiLCJpZCI6IjYzOGY0MjBmZTlkNTViYmYyM2IwYTRhNCIsImlhdCI6MTY3MDQwNzY2MH0.Y8Aq9NeZIwr_Uif2lMaFH4sb1kqGAaFG1R7s2aov0uI
 
 {
-    "title": "Jucca Palmu",
-    "author": "Moikkuli",
-    "url": "www.moi.fi",
-    "likes": 9,
+    "title": "murmeli",
+    "author": "pekaani",
+    "url": "www.helou.fi",
+    "likes": 12,
   },
